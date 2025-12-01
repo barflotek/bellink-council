@@ -1,4 +1,10 @@
-# LLM Council
+# LLM Council - Bellink Pro Edition
+
+> **Forked from:** [karpathy/llm-council](https://github.com/karpathy/llm-council)
+> **Purpose:** Future Pro-tier feature for [Bellink](https://github.com/barflotek/Alfred-mcp) - Multi-model collaborative AI system
+> **Original Author:** Andrej Karpathy
+
+---
 
 ![llmcouncil](header.jpg)
 
@@ -9,6 +15,23 @@ In a bit more detail, here is what happens when you submit a query:
 1. **Stage 1: First opinions**. The user query is given to all LLMs individually, and the responses are collected. The individual responses are shown in a "tab view", so that the user can inspect them all one by one.
 2. **Stage 2: Review**. Each individual LLM is given the responses of the other LLMs. Under the hood, the LLM identities are anonymized so that the LLM can't play favorites when judging their outputs. The LLM is asked to rank them in accuracy and insight.
 3. **Stage 3: Final response**. The designated Chairman of the LLM Council takes all of the model's responses and compiles them into a single final answer that is presented to the user.
+
+## Bellink Integration Roadmap
+
+This repository will be integrated into **Bellink Pro** as a premium feature, offering:
+
+- **Multi-Model Collaboration**: Leverage multiple AI models simultaneously for complex business decisions
+- **Transparent AI Reasoning**: See how different models approach the same problem and their peer evaluations
+- **Quality-First Responses**: Get synthesized answers that combine the best insights from top-tier models
+- **Business Tool Integration**: Use Council mode with your connected services (Gmail, HubSpot, Mindbody, etc.)
+
+### Planned Features for Bellink Pro:
+- [ ] Seamless SSO integration with existing Bellink accounts
+- [ ] Custom council configurations per team/workspace
+- [ ] Usage tracking and analytics dashboard
+- [ ] API access for programmatic council queries
+- [ ] Integration with Bellink's existing MCP tool ecosystem
+- [ ] Enterprise-grade security and compliance features
 
 ## Vibe Code Alert
 
